@@ -148,7 +148,7 @@ int main(int argc, char *argv[]) {
     ler_imagem1();
     ler_imagem2();
 
-    for (t = 0.0; t <= 1.0; t += 0.05) {
+    for (t = 0.0; t <= 1.0; t += 0.01) {
         gravar_imageminter(t, contador_imagens);
         contador_imagens++;
     }
