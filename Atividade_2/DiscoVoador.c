@@ -235,7 +235,7 @@ int main(int argc, char** argv) {
     glutInitWindowSize(500, 500);
     glutCreateWindow("Disco Voador");
     
-    glClearColor(0.5f, 0.8f, 1.0f, 1.0f);  // Cor de fundo (céu azul claro)
+    glClearColor(0.5f, 0.8f, 1.0f, 1.0f);  // Cor de fundo 
     
     gluOrtho2D(-1.0, 1.0, -1.0, 1.0);  // Definir coordenadas 2D
     
